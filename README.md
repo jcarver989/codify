@@ -8,6 +8,7 @@ Usage
 ======
 
 Given some HTML like so:
+
     <div id="widgetA">
       <div class="code-example">
         <ul class="widget-a">
