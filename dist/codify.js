@@ -8,10 +8,7 @@
   function codifyElement(obj) {
     var parent_node = obj.parent();
 
-    var html = obj.clone()
-              .wrap('<p>')
-              .parent()
-              .html()
+    var html = obj.html()
               .replace(/&/g, "&amp;")
               .replace(/</g, "&lt;")
               .replace(/>/g, "&gt;");
