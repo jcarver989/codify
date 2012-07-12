@@ -19,7 +19,7 @@
     var pre = $("<pre></pre>");
     pre.append(code);
 
-    parent_node.append(pre);
+    obj.append(pre);
 
     return obj;
   }
